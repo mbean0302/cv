@@ -1,0 +1,68 @@
+/*********************TAG SELECTORS*********************/
+
+body {
+  background-color: #222831;
+  color: #0278ae;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  color: #90303d;
+}
+
+h3 {
+  color: #90303d;
+}
+
+hr {
+  border-color: #393e46;
+  border-style: solid none none;
+  border-width: medium;
+  width: 85%;
+}
+
+a:link {
+  color: #90303d;
+}
+
+a:visited {
+  color: #015668;
+}
+
+thead {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/*********************CLASS SELECTORS*********************/
+
+.skill_name {
+  text-decoration: underline;
+}
+
+.skill_name:hover {
+  color: #90303d;
+}
+
+.intro {
+  color: #0278ae;
+}
+
+.work_exp_table {
+  border-style: hidden;
+  border-color: #0278ae;
+}
+
+.star {
+  color: transparent;
+  text-shadow: 0 0 0 #90303d;
+}
+
+/*********************ID SELECTORS*********************/
+
+#profile_pic {
+ border-style: inset;
+ border-color: #90303d;
+ border-radius: 100%;
+}
